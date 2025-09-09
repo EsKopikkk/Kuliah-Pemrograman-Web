@@ -57,7 +57,7 @@ Blok kode diatas akan mengatur gaya tampilan dari elemen yang menggunakan class 
     }
 ```
 
-Blok kode diatas akan mengatur gaya tampilan dari elemen yang menggunakan class'.sidebar img' dengan detail tampilan lebar dan tinggi gambar adalah 200x200 pixel, lalu 'border-radius' atau lengkungan sudut dari gambar di sidebar akan melengkung sebanyak 10 persen, dengan tebal garis fram gambar 2 pixel berwarna putih. 'object-fit:cover;' akan mengatur tampilan dari gambar yang memiliki elemen class ini, 'cover' akan menampilkan gambar secara penuh agar kotak fram gambar penuh. 'margin-bottom: 1rem;' akan memberikan jarak kebawah antara gambar dan elemen setelahnya sejauh 16 pixel.
+Blok kode diatas akan mengatur gaya tampilan dari elemen yang menggunakan selector'.sidebar img' dengan detail tampilan lebar dan tinggi gambar adalah 200x200 pixel, lalu 'border-radius' atau lengkungan sudut dari gambar di sidebar akan melengkung sebanyak 10 persen, dengan tebal garis fram gambar 2 pixel berwarna putih. 'object-fit:cover;' akan mengatur tampilan dari gambar yang memiliki elemen class ini, 'cover' akan menampilkan gambar secara penuh agar kotak fram gambar penuh. 'margin-bottom: 1rem;' akan memberikan jarak kebawah antara gambar dan elemen setelahnya sejauh 16 pixel.
 
 ```
     .sidebar h1 {
@@ -70,7 +70,7 @@ Blok kode diatas akan mengatur gaya tampilan dari elemen yang menggunakan class'
       font-weight: 300;
     }
 ```
-Dua blok kode diatas mengatur gaya tampilan dari elemen yang menggunakan class'.sidebar h1' dan '.sidebar p'. Untuk '.sidebar h1' akan mengatur ukuran font sebesar 1.4rem sekitar 22 pixel, dengan ukuran margin 0.5 rem sekitar 8 pixel. Selanjutnya untuk '.sidebar p' akan mengatur ukuran font sebesar sekitar 14 pixel dengan ketebalan font pada 300 (tipis).
+Dua blok kode diatas mengatur gaya tampilan dari elemen yang menggunakan selector'.sidebar h1' dan '.sidebar p'. Untuk '.sidebar h1' akan mengatur ukuran font sebesar 1.4rem sekitar 22 pixel, dengan ukuran margin 0.5 rem sekitar 8 pixel. Selanjutnya untuk '.sidebar p' akan mengatur ukuran font sebesar sekitar 14 pixel dengan ketebalan font pada 300 (tipis).
 
 ```
     .content {
@@ -96,7 +96,7 @@ Blok kode diatas akan mengatur gaya tampilan dari elemen yang menggunakan class'
       color: #3396D3;
     }
 ```
-Kedua blok kode diatas akan mengatur elemen-elemen yang menggunakan class 'section' dan 'section h2'. Pada 'section', class ini akan mengatur tampilan dengan detail latar warna putih, dengan jarak antar konten sebesar 1.5 rem (24 pixel), lalu membuat sudut dari box sedikit melengkung. selanjutnya jarak margin bawah sebesar 1.5 rem (24 pixel), terakhir mengatur bayangan dibawah box ```0 2px 5px rgba(0,0,0,0.05);```. Sekanjutnya untuk class 'section h2' class ini akan mengatur tampilan dengan detail berikut, ukuran font sekitar 19 pixel dengan jarak margin bawah sebesar 0.8 rem sekitar 13 pixel, dengan latar warna biru. 
+Kedua blok kode diatas akan mengatur elemen-elemen yang menggunakan selector 'section' dan 'section h2'. Pada 'section', class ini akan mengatur tampilan dengan detail latar warna putih, dengan jarak antar konten sebesar 1.5 rem (24 pixel), lalu membuat sudut dari box sedikit melengkung. selanjutnya jarak margin bawah sebesar 1.5 rem (24 pixel), terakhir mengatur bayangan dibawah box ```0 2px 5px rgba(0,0,0,0.05);```. Selanjutnya untuk selector 'section h2' class ini akan mengatur tampilan dengan detail berikut, ukuran font sekitar 19 pixel dengan jarak margin bawah sebesar 0.8 rem sekitar 13 pixel, dengan latar warna biru. 
 
 ```
     ul {
@@ -108,7 +108,7 @@ Kedua blok kode diatas akan mengatur elemen-elemen yang menggunakan class 'secti
       margin-bottom: 0.5rem;
     }
 ```
-Dua blok kode terakhir pada css file html portodiri, terdiri dari 'ul' dan 'ul li', class 'ul' akan mengatur semua elemen 'ul', dengan menghapus margin bawaan 'ul' lalu ```padding-left: 1.2``` Memberi jarak ke dalam sisi kiri daftar, supaya bullet (•) dan teks tidak menempel ke tepi container sebesar 19 pixel. lalu pada 'ul li' Selector ini mengatur setiap ```<li>``` (list item) di dalam ```<ul>```, lalu memberi jarak antar item list secara vertikal sebesar 8 pixel.
+Dua blok kode terakhir pada css file html portodiri, terdiri dari 'ul' dan 'ul li', selector 'ul' akan mengatur semua elemen 'ul', dengan menghapus margin bawaan 'ul' lalu ```padding-left: 1.2``` Memberi jarak ke dalam sisi kiri daftar, supaya bullet (•) dan teks tidak menempel ke tepi container sebesar 19 pixel. lalu pada 'ul li' Selector ini mengatur setiap ```<li>``` (list item) di dalam ```<ul>```, lalu memberi jarak antar item list secara vertikal sebesar 8 pixel.
 
 Keseluruhan CSS diatas, diaplikasikan pada isi teks utama HTML dibawah.
 
