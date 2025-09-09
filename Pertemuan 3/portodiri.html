@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #FFF0CE;
+      color: #333;
+    }
+
+    .container {
+      display: flex;
+      min-height: 100vh;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      background-color: #3396D3;
+      color: white;
+      width: 280px;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .sidebar img {
+      width: 200px;
+      height: 200px;
+      border-radius: 10%;
+      border: 2px solid #fff;
+      object-fit:cover;
+      margin-bottom: 1rem;
+    }
+
+    .sidebar h1 {
+      font-size: 1.4rem;
+      margin: 0.5rem 0;
+    }
+
+    .sidebar p {
+      font-size: 0.9rem;
+      font-weight: 300;
+    }
+
+    /* Konten utama */
+    .content {
+      flex: 1;
+      padding: 2rem 3rem;
+      background-color: #EBCB90;
+    }
+
+    section {
+      background: #ffffff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    section h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.8rem;
+      color: #3396D3;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 1.2rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar kiri -->
+    <div class="sidebar">
+      <img src="me.jpg" alt="Foto Profil">
+      <h1>Muhammad Riyadhy Al-Haadiy</h1>
+      <p>Mahasiswa Teknik Komputer</p>
+      <p>UI/UX & Frontend Developer Enthusiast</p>
+    </div>
+
+    <!-- Konten kanan -->
+    <div class="content">
+      <section>
+        <h2>Pendidikan</h2>
+        <p>MA</p>
+        <p>Universitas Negeri Makassar Prodi Teknik Komputer</p>
+      </section>
+
+      <section>
+        <h2>Ketertarikan</h2>
+        <p>UI/UX</p>
+        <p>Frontend Programmer</p>
+      </section>
+
+      <section>
+        <h2>Bahasa Pemrograman</h2>
+        <ul>
+          <li>C++</li>
+          <li>Java</li>
+          <li>PHP</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Mari Terhubung</h2>
+        <p>Email: <a href="mailto:riyadhy@example.com">riyadhi377@gmail.com</a></p>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
