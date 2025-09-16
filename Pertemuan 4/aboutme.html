@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #FFF0CE;
+      color: #333;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #19183B;
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #FFD700;
+    }
+
+    .container {
+      display: flex;
+      min-height: 100vh;
+    }
+
+    .cards {
+    display: flex;
+    padding-left: 10em;
+    padding-right: 10em;
+                     
+    /* justify-content: center;  */
+    }
+
+    h1 {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    h3{
+      text-align: center;
+    }
+
+    section {
+      background: #ffffff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin: 2rem auto;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      width: 250px;
+      text-align: center; 
+    }
+
+    section img {
+      width: 150px;
+      height: 150px;
+      border-radius: 10%;
+      margin-bottom: 1rem;
+      object-fit: cover;
+    }
+
+    section h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.8rem;
+      color: #333;
+    }
+
+    section p {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 1rem;
+    }
+
+    section a {
+
+      padding: 0.5rem 1rem;
+      background: #3396D3;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.3s;
+    }
+
+    section a:hover {
+      background: #2577a6;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Gallery</div>
+    <ul class="nav-links">
+      <li><a href="kontak.html">Mari Terhubung</a></li>
+    </ul>
+  </nav>
+
+  <h1>My Gallery</h1>
+  <h3>Kadang suka jepret Random</h3>
+  
+<div class="cards">
+  <section>
+    <img src="iconDora.jpg" alt="icon"> 
+    <h2>Doraaa</h2>
+    <p>Entitas Kucing Hobi Berak</p>
+    <a href="pictkucing.html">Lihat disini</a>
+  </section>
+  <section>
+    <img src="iconPeman.jpg" alt="iconPeman">
+    <h2>Sight Seeing</h2>
+    <p>Jepretan Random</p>
+    <a href="pictPeman.html">Lihat disini</a>
+  </section>
+  <section>
+    <img src="iconFood.jpg" alt="iconFood">
+    <h2>Makanan</h2>
+    <p>Jepretan Makanan Random</p>
+    <a href="pictMakanan.html">Lihat disini</a>
+  </section>
+  <section>
+    <img src="iconMeme.jpg" alt="iconMeme">
+    <h2>Meme Kinda Lucu</h2>
+    <p>Meme pilihan 😏</p>
+    <a href="pictMeme.html">Lihat disini</a>
+  </section>
+  </div>
+
+</body>
+</html>
