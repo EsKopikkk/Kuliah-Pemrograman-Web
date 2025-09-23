@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Konversi Tipe Data</title>
+</head>
+<body>
+  <script>
+    var a = Number("123"); 
+    document.write("1. String '123' konversi pakai Number() : " + a + "<br>");
+
+    var b = parseInt("123.45"); 
+    document.write("2. String '123.45' konversi ke Int : " + b + "<br>");
+
+    var c = parseFloat("123.45");
+    document.write("3. String '123.45' konversi ke Float : " + c + "<br>");
+
+    var num = 456;
+    var str1 = String(num);
+    document.write("4. Angka 456 didalam String : " + str1 + "<br>");
+
+    var bool = true;
+    var str2 = String(bool);
+    document.write("5. Boolean true didalam String : " + str2 + "<br>");
+
+    var d = Boolean(0);
+    document.write("6. Angka 0 dalam Boolean : " + d + "<br>");
+
+    var e = Boolean(123);
+    document.write("7. Angka 123 dalam Boolean : " + e + "<br>");
+
+    var f = Boolean("");
+    document.write("8. String kosong didalam petik '' dalam Boolean : " + f + "<br>");
+
+    var g = Boolean("Halo");
+    document.write("9. String 'Halo' dalam Boolean : " + g + "<br>");
+  </script>
+</body>
+</html>

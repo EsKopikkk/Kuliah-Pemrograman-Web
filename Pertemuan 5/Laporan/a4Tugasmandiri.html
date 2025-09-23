@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>Perhitungan Bangun Ruang</h2>
+
+    <script>
+    
+        let sisi = 5;
+        let volumeKubus = sisi * sisi * sisi;
+        document.write("1. Volume Kubus (sisi = " + sisi + "): " + volumeKubus + "<br>");
+        
+        let panjang = 10;
+        let lebar = 4;
+        let tinggi = 6;
+        let volumeBalok = panjang * lebar * tinggi;
+        document.write("2. Volume Balok (p=" + panjang + ", l=" + lebar + ", t=" + tinggi + "): " + volumeBalok + "<br>");
+
+        let jari = 7;
+        let tinggiTabung = 10;
+        let volumeTabung = Math.PI * jari * jari * tinggiTabung;
+        document.write("3. Volume Tabung (r=" + jari + ", t=" + tinggiTabung + "): " + volumeTabung.toFixed(2) + "<br>");
+    </script>
+
+</body>
+
+</html>
