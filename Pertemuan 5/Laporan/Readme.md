@@ -18,6 +18,7 @@
 </HTML>
 ```
 Blok kode diatas menggunakan tag ```<script>``` pada bagian ```<head>``` dan ```<body>```. Pada bagian head, program menampilkan tulisan 'Program JavaSript Aku di kepala' sementara pada bagian body, program menampilkan tulisan 'Program JavaSript Aku di body'
+![alt text](image.png)
 
 ## 1ufileEksternal.html
 ```<SCRIPT LANGUAGE=Javascript SRC="contohFileEksternal.js"> </SCRIPT>```
@@ -46,6 +47,7 @@ baris ini digunakan untuk memanggil atau membuka file bertipe '.js' (JavaScript)
 </html>
 ```
 Teks html dan Javascript diatas menggunakan ```<button onclick="tampilkan_nama()">klik sini</button>```, fungsi dari baris ini adalah jika di analogikan sebagai pemanggil fungsi, fungsi disini yaiti ```tampilkan_nama()```, yang akan mencetak teks "Nama saya Muhammad Riyadhy Al-Haadiy"
+![alt text](image-1.png)
 
 ## 3contohSederhana.html
 ```
@@ -62,7 +64,7 @@ Teks html dan Javascript diatas menggunakan ```<button onclick="tampilkan_nama()
 </html>
 ```
 Teks html & script diatas, mencetak 2 kalimat menggunakan JavaScript pada bagian body, keduanya ditampilkan; ```Selamat Belajar Angkatan 2019``` dan ```JavaScript Pemrograman Web TEKNIK KOMPUTER```
-
+![alt text](image-2.png)
 ## 4memasukkanData.html
 ```
 <html>
@@ -78,7 +80,8 @@ Teks html & script diatas, mencetak 2 kalimat menggunakan JavaScript pada bagian
 </html>
 ```
 Teks diatas menggunakan JavaScript untuk meminta user memasukkan data dan menampilkannya. Diatas, alurnya program meminta data dengan menampilkan 'Tell me your name' melalui ```var nama =prompt("Tell me your name")```, selanjutnya setelah user mengisi data, program akan menampilkan tulisan 'hello!' dan data yang dimasukkan. contohnya 'hello! mary'.
-
+![alt text](image-3.png)
+![alt text](image-4.png)
 ## 5jendelaPeringatan.html dan 5kjendelaPeringatan.html
 ```
 <html>
@@ -93,7 +96,7 @@ Teks diatas menggunakan JavaScript untuk meminta user memasukkan data dan menamp
 </html>
 ```
 Teks diatas menggunakan JavaScript untuk menampilkan jendela peringatan melalui ```window.alert("Yakin meninggalkan halaman ini?")```, peringatan seperti ini umum ditemukan ketika seseorang telah mengisi data tertentu atau ingin meninggalkan sebuah halaman web.
-
+![alt text](image-5.png)
 ```
 <html>
     <head>
@@ -109,7 +112,7 @@ Teks diatas menggunakan JavaScript untuk menampilkan jendela peringatan melalui 
 </html>
 ```
 Teks diatas mempunyai kerja yang sama dengan teks sebelumnya, namun teks ini akan meminta pengguna untuk mengkonfirmasi tindakan/action yang akan ditampilkannya dengan menampilkan tulisan 'apakah anda yakin' melalui ```window.confirm```, dan menampilkan teks setelah pengguna melakukan konfirmasi tindakan melalui ``` document.write("Jawaban Anda adalah "+jawaban);```
-
+![alt text](image-6.png)
 ## 6deklaVariabel.html
 ```
 <script language="JavaScript">
@@ -120,7 +123,7 @@ Teks diatas mempunyai kerja yang sama dengan teks sebelumnya, namun teks ini aka
 </script>
 ```
 Teks pada file ini menggunakan JavaScript untuk mendeklarasikan variabel, dengan awalan ```var```, diatas dideklarasikan variabel 'VariabelKu', lalu diinisialisasi nilainya dengan '1234', pada variabel kedua 'VariabelKu2' ia diinisialisasi nilainya senilai '3', lalu diakhir terdapat penggunaan operator ```*```, untuk menampilkan hasil kali dari ```VariabelKu``` dan ```VariabelKu2```.
-
+![alt text](image-7.png)
 ## 7lokalGlobal.html vs 7lokalGlobal2.html
 
 ### 7lokalGlobal.html
@@ -151,12 +154,11 @@ Teks pada file ini menggunakan JavaScript untuk mendeklarasikan variabel, dengan
     document.write("Nilai dari a adalah ", a);
 </script>
 ```
-Secara sekilas, kedua teks diatas terlihat mirip, namun keduanya berbeda hanya pada satu baris. Pada ```7lokalGlobal.html```, ia melakukan operasi perkalian melalui fungsi dengan mendeklarasikan ```var a = 12``` dan ```var b = 4```, selanjutnya didalam fungsi dilakukan operasi perkalian b * 2 yang nilainya disimpan pada variabel a. lalu menampilkan teks "Dua Kali dari ",b," adalah ", dan Nilai dari a adalah ", a outputnya menampilkan 
-<gambar>
-terlihat nilai dari variabel a adalah 8.
+Secara sekilas, kedua teks diatas terlihat mirip, namun keduanya berbeda hanya pada satu baris. Pada ```7lokalGlobal.html```, ia melakukan operasi perkalian melalui fungsi dengan mendeklarasikan ```var a = 12``` dan ```var b = 4```, selanjutnya didalam fungsi dilakukan operasi perkalian b * 2 yang nilainya disimpan pada variabel a. lalu menampilkan teks "Dua Kali dari ",b," adalah ", dan Nilai dari a adalah ", a outputnya menampilkan terlihat nilai dari variabel a adalah 8.
+![alt text](image-8.png)
 <br>
 Sementara pada ```7lokalGlobal2.html```, ia sama sama melakukan operasi perkalian pada variabel a, namun perbedaannya variabel a dideklarasikan 2 kali, pertama pada awal script (global), lalu didalam fungsi yang menjadikan variabel a didalamnya kedalam global, lebih jelasnya pada baris ini ```var a = b*2;```. Maka terlihat jelas perbedaan hasil outputnya disini
-![Gambar Lokal vs Global](7lokalGlobal2.jpg)
+![alt text](image-9.png)
 
 
 ## 8konversiTipedata.html
@@ -211,6 +213,7 @@ blok kode ini menggunakan ```parseInt()``` untuk mengkonversi angka kedalam bent
             document.write("8. "+ b +"<br>");
 ```
 sementara blok kode diatas ini menggunakan ```parseFloat()``` untuk mengkonversi angka kedalam tipe data Float, contohnya mengkonversi 27A yang bertipe data string ke bentuk 27 bertipe data float, tiap inisialisasi variabel b diatas, nilainya diatur kedalam tipe data yang berbeda dengan integer, fungsi parseFloat() pada blok kode ini mengubah tipe data string kedalam bentuk float.
+![alt text](image-10.png)
 
 ## 9operArit.html
 ```
@@ -236,7 +239,7 @@ sementara blok kode diatas ini menggunakan ```parseFloat()``` untuk mengkonversi
 </HTML>
 ```
 Teks html diatas menggunakan JavaScript untuk melakukan operasi aritmatika, diantaranya tambah(+), kurang(-), kali(*) dan bagi(/), dengan tiap melakukan operasi akan membuat baris baru sesuai dengan output yang telah diatur diatas.
-
+![alt text](image-11.png)
 ## 10operLogik.html
 ```
 <HTML>
@@ -255,6 +258,8 @@ Teks html diatas menggunakan JavaScript untuk melakukan operasi aritmatika, dian
 </HTML>
 ```
 Teks html diatas menggunakan JavaScript untuk melakukan operasi logika, melalui baris ```var hasil = (nilai >= 60) ? "Lulus" : "Tidak Lulus";``` dimana akan mengatur hasil output dimana jika variabel nilai memiliki nilai sama dengan atau lebih besar dari 60 akan menampilkan teks 'lulus', jika dibawahnya maka akan menampilkan output 'tidak lulus'.
+![alt text](image-12.png)
+![alt text](image-13.png)
 
 ## a1Tugasmandiri.html
 ```
@@ -298,7 +303,7 @@ Teks html diatas menggunakan JavaScript untuk melakukan operasi logika, melalui 
 </html>
 ```
 Teks html ini mengkonversi beberapa nilai tipe data (Number-angka, String dan Boolean) ke dalam tipe data (Number, Integer, Float, String, dan Boolean).
-
+![alt text](image-14.png)
 ## a2Tugasmandiri.html
 ```
 <!DOCTYPE html>
@@ -322,7 +327,7 @@ Teks html ini mengkonversi beberapa nilai tipe data (Number-angka, String dan Bo
 </html>
 ```
 Teks html ini menggunakan JavaScript untuk memasukkan nilai kedalam variabel data (array), nilai didalam array memiliki tipe data yang berbeda bersusun dari iterasi 0-5 (123, 45.67, "Halo Dunia", true, false). Program ini akan mencetak teks "isi Array:", dilengkapi perulangan berbasis kondisi dimulai i=0, jika nilai variabel i lebih kecil dari jumlah iterasi didalam array, maka akan dilakukan penambahan nilai (increment) hingga kondisi terpenuhi. Perulangan for akan terus mencetak sebanyak jumlah iterasi didalam array dan menampilkan isi array sesuai iterasinya melalui data[i].
-
+![alt text](image-15.png)
 ## 3Tugasmandiri.html
 ```
 <!DOCTYPE html>
@@ -385,6 +390,7 @@ Teks html ini menggunakan JavaScript untuk memasukkan nilai kedalam variabel dat
 ```
 Pada teks html ini, dicoba untuk membuat sebuah kalkulator sederhana, mengandalkan tag button ```<button onclick="addValue('-')">-</button><br>```, dimana untuk tiap tiap tombol pada kalkulator seperti angka 0-9, seluruh operator aritmatika (+,-,/,*,=), serta tombol c(clear). Lalu diakhir menambahkan logika fungsi addValue berparameter value, untuk menambahkan nilai. Lalu fungsi calculate untuk melakukan logika aritmatika, yang jika memasukkan nilai yang tidak dapat di proses akan menampilkan error.
 
+![alt text](image-16.png)
 ## 4Tugasmandiri.html
 ```
 <!DOCTYPE html>
@@ -442,3 +448,4 @@ document.write("2. Volume Balok (p=" + panjang + ", l=" + lebar + ", t=" + tingg
 ```
 Blok kode ini melakukan perhitungan luas Tabung, dengan mendeklarasikan variabel ```let jari = 7; let tinggiTabung = 10;``` dan variabel ```let volumeTabung = Math.PI * jari * jari * tinggiTabung;``` untuk menghitung hasil kali dari PI, variabel jari dan tinggiTabung dan mencetak hasilnya melalui baris ini ```
 document.write("3. Volume Tabung (r=" + jari + ", t=" + tinggiTabung + "): " + volumeTabung.toFixed(2) + "<br>");```
+![alt text](image-17.png)
