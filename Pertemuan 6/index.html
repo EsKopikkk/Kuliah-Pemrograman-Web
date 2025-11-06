@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M.C.P</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="font-sans bg-white">
+
+  <nav id="navbar"
+    class="fixed top-0 left-0 w-full flex items-center px-8 py-4 z-20 transition-all duration-300 bg-transparent">
+
+    <!-- Logo -->
+    <div class="text-2xl font-bold text-yellow-400">Mi's</div>
+
+    <!-- Menu -->
+    <ul class="hidden md:flex space-x-6 text-white font-medium absolute left-1/2 transform -translate-x-1/2">
+      <li><a href="#home" class="hover:text-yellow-400">Home</a></li>
+      <li><a href="#about" class="hover:text-yellow-400">About</a></li>
+      <li><a href="#products" class="hover:text-yellow-400">Products</a></li>
+      <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
+    </ul>
+
+    <!-- Mobile menu -->
+    <button class="md:hidden text-white ml-auto">☰</button>
+  </nav>
+
+  <section id="home" class="relative h-screen bg-cover bg-center" style="background-image: url('ime1.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="relative z-10 flex flex-col items-center justify-center text-center text-white h-full px-6">
+      <p class="text-yellow-400 font-semibold mb-2">Cita rasa rumah yang hangat</p>
+      <h1 class="text-5xl md:text-6xl font-bold mb-4">Mimi's Delight</h1>
+      <p class="max-w-2xl mb-6">Cookies, cake and platery</p>
+      <a href="#about" class="bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-500">
+        Read More
+      </a>
+    </div>
+  </section>
+
+  <section id="about" class="pt-24 pb-16 bg-white">
+    <div class="container mx-auto px-6 md:px-12 lg:px-20">
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div class="flex space-x-4">
+          <img src="ime2.jpg" alt="Croissant" class="rounded-lg shadow-lg w-1/2">
+          <img src="ime3.jpg" alt="Bread" class="rounded-lg shadow-lg w-1/2">
+        </div>
+        <div>
+          <p class="text-yellow-500 font-semibold mb-2">// ABOUT US</p>
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">Masakan kami tercipta dari cinta dan kasih</h2>
+          <p class="mb-4 text-gray-600">Kami menyediakan berbagai jenis Kue, Roti dan Lauk Pauk.</p>
+          <ul class="grid grid-cols-2 gap-2 mb-6 text-gray-700">
+            <li>🌟 Quality Products</li>
+            <li>🌟 Custom Products</li>
+            <li>🌟 Online Order</li>
+            <li>🌟 Home Delivery</li>
+          </ul>
+          <a href="aboutme.html"
+            class="bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-500">
+            Katalog
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="products" class="pt-24 pb-16 bg-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-4 text-center">Our Products</h2>
+      <p class="text-center text-gray-600 mb-8">Kue, roti, dan aneka makanan pilihan.</p>
+    </div>
+    <div class="container mx-auto px-6 md:px-12 lg:px-20">
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+
+        <!-- Card Product -->
+        <div class="relative rounded-lg shadow-lg overflow-hidden group cursor-pointer">
+          <img src="ayamchick.jpg" alt="Ayam" class="w-full aspect-square object-cover">
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center 
+                    text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition">
+            Ayam Crispy
+          </div>
+        </div>
+
+        <div class="relative rounded-lg shadow-lg overflow-hidden group cursor-pointer">
+          <img src="pisang.jpg" alt="Pisang" class="w-full aspect-square object-cover">
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center 
+                    text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition">
+            Pisang Goreng 
+          </div>
+        </div>
+
+        <div class="relative rounded-lg shadow-lg overflow-hidden group cursor-pointer">
+          <img src="roti.jpg" alt="Kue" class="w-full aspect-square object-cover">
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center 
+                    text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition">
+            Roti Bakar
+          </div>
+        </div>
+
+        <div class="relative rounded-lg shadow-lg overflow-hidden group cursor-pointer">
+          <img src="sushi.jpg" alt="Sushi" class="w-full aspect-square object-cover">
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center 
+                    text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition">
+            Sushi Roll
+          </div>
+        </div>
+
+        <div class="relative rounded-lg shadow-lg overflow-hidden group cursor-pointer">
+          <img src="cone.jpg" alt="Cone" class="w-full aspect-square object-cover">
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center 
+                    text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition">
+            Pastry Cone
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <section id="contact" class="pt-24 pb-16 bg-gray-100">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-4 text-center">Contact Us</h2>
+      <p class="text-center text-gray-600 mb-8">Hubungi kami untuk pemesanan dan informasi lebih lanjut.</p>
+    </div>
+    <div class="flex justify-center">
+      <a href="https://wa.me/6282347285247" target="_blank"
+        class="w-40 h-40 flex items-center justify-center bg-white rounded-lg shadow-lg hover:shadow-xl transition">
+        <img src="whatsapp.jpg" alt="WhatsApp" class="w-16 h-16">
+      </a>
+    </div>
+  </section>
+
+  <script>
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add('bg-gray-900', 'shadow-lg');
+        navbar.classList.remove('bg-transparent');
+        navbar.querySelectorAll('ul li a').forEach(a => a.classList.replace('text-white', 'text-gray-200'));
+      } else {
+        navbar.classList.remove('bg-gray-900', 'shadow-lg');
+        navbar.classList.add('bg-transparent');
+        navbar.querySelectorAll('ul li a').forEach(a => a.classList.replace('text-gray-200', 'text-white'));
+      }
+    });
+  </script>
+
+</body>
+
+</html>

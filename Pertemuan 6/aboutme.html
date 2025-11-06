@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katalog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #dfcda1;
+      color: #333;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #19183B;
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #FFD700;
+    }
+
+    .container {
+      display: flex;
+      min-height: 100vh;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 2rem 0 0.5rem;
+    }
+
+    h3 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    section {
+      background: #ffffff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+      width: 250px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    section:hover {
+      transform: translateY(-5px);
+    }
+
+    section img {
+      width: 150px;
+      height: 150px;
+      border-radius: 10%;
+      margin-bottom: 1rem;
+      object-fit: cover;
+    }
+
+    section h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.8rem;
+      color: #333;
+      display: none; /* awalnya tersembunyi */
+    }
+
+    section p {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 1rem;
+    }
+
+    section a {
+      padding: 0.5rem 1rem;
+      background: #3396D3;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.3s;
+    }
+
+    section a:hover {
+      background: #2577a6;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">Gallery</div>
+    <ul class="nav-links">
+      <li><a href="https://wa.me/6282347285247">Informasi Pemesanan</a></li>
+    </ul>
+  </nav>
+
+  <h1>Katalog</h1>
+  <h3>Cek Pilihan Anda dibawah ini</h3>
+
+  <div class="cards">
+    <section>
+      <img src="kueKering.jpg" alt="icon">
+      <h2>Cookies</h2>
+      <p>Kue kering🍪</p>
+      <a href="kueKering.html">Lihat disini</a>
+    </section>
+    <section>
+      <img src="ime2.jpg" alt="iconPeman">
+      <h2>Cakes</h2>
+      <p>Variety of Cakes 🍰</p>
+      <a href="kueBolu.html">Lihat disini</a>
+    </section>
+    <section>
+      <img src="ayamchick.jpg" alt="iconFood">
+      <h2>Side-Dish</h2>
+      <p>Lauk Pauk 🍚</p>
+      <a href="lauk.html">Lihat disini</a>
+    </section>
+    <section>
+      <img src="roti.jpg" alt="iconFood">
+      <h2>Bread</h2>
+      <p>Pastries 🥖🥐</p>
+      <a href="roti.html">Lihat disini</a>
+    </section>
+  </div>
+
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      
+      $("section").hover(
+        function () {
+          $(this).find("h2").stop().fadeIn(300);
+        },
+        function () {
+          $(this).find("h2").stop().fadeOut(300);
+        }
+      );
+
+    
+      $("section a").on("click", function (e) {
+        let pesan = "Yakin ingin melihat detail produk ini?";
+        if (!confirm(pesan)) {
+          e.preventDefault();
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
